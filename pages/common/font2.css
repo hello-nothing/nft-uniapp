@@ -1,0 +1,13 @@
+/*!*  #ifdef APP-PLUS *!*/
+/*@font-face {*/
+/*    font-family: my-font;*/
+/*    src: url('~@/static/font/my-font.ttf')*/
+/*}*/
+/*!* #endif *!*/
+
+/*!* #ifndef H5 *!*/
+/*@font-face {*/
+/*    font-family: my-font;*/
+/*    src: url('~@/static/font/font.css')*/
+/*}*/
+/*!* #endif *!*/

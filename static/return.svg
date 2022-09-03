@@ -1,0 +1,6 @@
+<svg id="Bar_Nav_Back_Icon" data-name="Bar / Nav / Back + Icon" xmlns="http://www.w3.org/2000/svg" width="94" height="24" viewBox="0 0 94 24">
+    <g id="icon_Back" data-name="icon / Back">
+        <path id="Path" d="M.493,6.492c.075-.077.36-.408.624-.68A28.911,28.911,0,0,1,8.844.447,6.17,6.17,0,0,1,10.416,0a2.577,2.577,0,0,1,1.193.291A2.49,2.49,0,0,1,12.669,1.5a13.214,13.214,0,0,1,.341,1.419,31.94,31.94,0,0,1,.323,5.075,37.119,37.119,0,0,1-.284,4.919,11.308,11.308,0,0,1-.455,1.769A2.38,2.38,0,0,1,10.491,16h-.075a6.5,6.5,0,0,1-1.761-.545A28.938,28.938,0,0,1,1.1,10.167a7.534,7.534,0,0,1-.643-.739A2.377,2.377,0,0,1,0,8.009,2.5,2.5,0,0,1,.493,6.492Z" transform="translate(5 4)" fill="#fff"/>
+    </g>
+    <text id="Back" transform="translate(32 17)" fill="#fff" font-size="14" font-family="PingFangSC-Regular, PingFang SC" letter-spacing="0.143em"><tspan x="0" y="0"></tspan></text>
+</svg>

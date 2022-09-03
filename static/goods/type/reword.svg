@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="40" viewBox="0 0 100 40">
+    <defs>
+        <radialGradient id="radial-gradient" cx="0.954" cy="0.144" r="1.227" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ffd840"/>
+            <stop offset="0.559" stop-color="#f3acff"/>
+            <stop offset="1" stop-color="#8aecff"/>
+        </radialGradient>
+    </defs>
+    <g id="组_187" data-name="组 187" transform="translate(7770 2917)">
+        <g id="Button_40px_Dark" data-name="Button / 40px / Dark" transform="translate(-7770 -2917)">
+            <rect id="Rectangle_Copy" data-name="Rectangle Copy" width="100" height="40" rx="15" fill="url(#radial-gradient)"/>
+            <text id="Follow" transform="translate(50.5 25.5)" font-size="17" font-family="DengXian-Bold, DengXian" font-weight="700"><tspan x="-34" y="0">实物藏品</tspan></text>
+        </g>
+    </g>
+</svg>

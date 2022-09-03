@@ -1,0 +1,197 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/sys/index/index",
+			"style": {
+				"navigationBarTitleText": "互联宇宙"
+			}
+		},
+		{
+			"path": "pages/sys/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/sys/index/good",
+			"style": {
+				"navigationBarTitleText": "藏品界面"
+			}
+		},
+		{
+			"path": "pages/sys/seller/ipseller",
+			"style": {
+				"navigationBarTitleText": "ip市场"
+			}
+		},
+		{
+			"path": "pages/sys/seller/ipcpseller",
+			"style": {
+				"navigationBarTitleText": "ip藏品界面"
+			}
+		},
+		{
+			"path": "pages/sys/seller/good",
+			"style": {
+				"navigationBarTitleText": "实物"
+			}
+		},
+		{
+			"path": "pages/sys/seller/ipcpsellerbuy",
+			"style": {
+				"navigationBarTitleText": "ip藏品购买界面"
+			}
+		},
+		{
+			"path": "pages/sys/seller/ntfseller",
+			"style": {
+				"navigationBarTitleText": "艺术家市场"
+			}
+		},
+		{
+			"path": "pages/sys/seller/addseller",
+			"style": {
+				"navigationBarTitleText": "衍生品市场"
+			}
+		},
+		{
+			"path": "pages/sys/seller/bqseller",
+			"style": {
+				"navigationBarTitleText": "版权市场"
+			}
+		},
+		{
+			"path": "pages/sys/seller/goodshow",
+			"style": {
+				"navigationBarTitleText": "实物详情"
+			}
+		},
+		{
+			"path": "pages/sys/seller/mhseller",
+			"style": {
+				"navigationBarTitleText": "盲盒市场"
+			}
+		},
+		{
+			"path": "pages/sys/seller/mhshow",
+			"style": {
+				"navigationBarTitleText": "盲盒详情"
+			}
+		},
+		{
+			"path": "pages/sys/seller/seller",
+			"style": {
+				"navigationBarTitleText": "市场"
+			}
+		},
+		{
+			"path": "pages/sys/seller/cpshow",
+			"style": {
+				"navigationBarTitleText": "支付界面"
+			}
+		},
+		{
+			"path": "pages/sys/seller/buycp",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		{
+			"path": "pages/sys/seller/tran",
+			"style": {
+				"navigationBarTitleText": "流转市场"
+			}
+		},
+		{
+			"path": "pages/sys/my/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/sys/start/go",
+			"style": {
+				"navigationBarTitleText": "启动页"
+			}
+		},
+		{
+			"path": "pages/sys/start/profile",
+			"style": {
+				"navigationBarTitleText": "确认身份"
+			}
+		},
+		{
+			"path": "pages/sys/my/walleDetails",
+			"style": {
+				"navigationBarTitleText": "钱包详情"
+			}
+		},
+		{
+			"path": "pages/sys/seller/cashout",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		},
+		{
+			"path": "pages/sys/my/bill",
+			"style": {
+				"navigationBarTitleText": "账单"
+			}
+		},
+		{
+			"path": "pages/sys/my/order",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		},
+		{
+			"path": "pages/sys/my/compose",
+			"style": {
+				"navigationBarTitleText": "合成/兑换藏品"
+			}
+		},
+		{
+			"path": "pages/sys/index/notice",
+			"style": {
+				"navigationBarTitleText": "公告"
+			}
+		},
+		{
+			"path": "pages/sys/my/realPeople",
+			"style": {
+				"navigationBarTitleText": "实名认证"
+			}
+		},
+		{
+            "path" : "pages/sys/my/editinfo",
+            "style" :
+            {
+                "navigationBarTitleText": "修改个人资料"
+            }
+
+        },
+		{
+		    "path" : "pages/sys/my/clause",
+		    "style" :
+		    {
+		        "navigationBarTitleText": "使用协议"
+		    }
+
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "互联宇宙",
+		"navigationBarBackgroundColor": "rgb(21,21,21)",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

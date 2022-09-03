@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="170" viewBox="0 0 170 170">
+  <defs>
+    <filter id="Oval" x="0" y="0" width="170" height="170" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient" cx="0.954" cy="0.144" r="1.227" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd840"/>
+      <stop offset="0.559" stop-color="#f3acff"/>
+      <stop offset="1" stop-color="#8aecff"/>
+    </radialGradient>
+  </defs>
+  <g id="Group" transform="translate(45 25)">
+    <g transform="matrix(1, 0, 0, 1, -45, -25)" filter="url(#Oval)">
+      <circle id="Oval-2" data-name="Oval" cx="40" cy="40" r="40" transform="translate(45 25)" fill="rgb(21,21,21)"/>
+    </g>
+    <g id="icon_Personal_Active" data-name="icon / Personal / Active" transform="translate(20 20)">
+      <g id="Add-User" transform="translate(7.5 4.167)">
+        <path id="Shape" d="M12.5,31.667C4.089,31.667,0,29.893,0,26.244c0-1.985,1.252-3.434,3.721-4.308A27.338,27.338,0,0,1,12.5,20.859c8.412,0,12.5,1.774,12.5,5.423,0,1.984-1.252,3.433-3.722,4.307A27.335,27.335,0,0,1,12.5,31.667Zm0-14.91a8.17,8.17,0,0,1-5.857-2.445A8.384,8.384,0,0,1,4.228,8.379,8.386,8.386,0,0,1,6.642,2.446a8.238,8.238,0,0,1,11.715,0,8.385,8.385,0,0,1,2.414,5.933,8.383,8.383,0,0,1-2.414,5.932A8.172,8.172,0,0,1,12.5,16.757Z" transform="translate(0 0)" fill="url(#radial-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

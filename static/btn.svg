@@ -1,0 +1,12 @@
+<svg id="Button_64px_Gradient" data-name="Button / 64px / Gradient" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="224" height="64" viewBox="0 0 224 64">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.954" cy="0.144" r="1.227" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd840"/>
+      <stop offset="0.559" stop-color="#f3acff"/>
+      <stop offset="1" stop-color="#8aecff"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_4" data-name="Group 4">
+    <rect id="Rectangle_Copy" data-name="Rectangle Copy" width="224" height="64" rx="22" fill="url(#radial-gradient)"/>
+  </g>
+</svg>
